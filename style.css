@@ -332,9 +332,15 @@ a:hover {
     text-align: inherit;
 }
 
+.nav > li a {
+    font-size: 16px;
+    font-weight: 300;
+}
+
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    text-decoration: underline;
 }
 
 .navbar-toggle {
@@ -677,7 +683,7 @@ a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -737,6 +743,10 @@ h4 {
     color: #333333!important;
 }
 
+.contact {
+    margin-top: 50px;
+}
+
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
@@ -744,6 +754,12 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+}
+
+.black {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(10, 10, 10)!important;
 }
 
 .portfolio-thumb {
@@ -782,17 +798,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: rgb(10, 10, 10)!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: rgb(10, 10, 10)F!important;
 }
 
 .ltc-white {
