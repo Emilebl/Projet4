@@ -40,8 +40,8 @@ a:hover {
 }
 
 .bloc .container {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .bloc-lg {
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .a-btn:hover,
@@ -151,6 +151,7 @@ a:hover {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
+    font-weight: bold;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -804,6 +805,9 @@ h4 {
 .btn-atomic-tangerine {
     background: #F3976C;
     color: rgb(10, 10, 10)!important;
+    max-width: 250px;
+    display: block;
+    margin: auto;
 }
 
 .btn-atomic-tangerine:hover {
@@ -998,6 +1002,12 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+    .paddingmob{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
