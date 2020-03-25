@@ -1,6 +1,7 @@
 <?php	
 	if(empty($_POST['name']) && strlen($_POST['name']) == 0 || empty($_POST['email']) && strlen($_POST['email']) == 0 || empty($_POST['input_504']) && strlen($_POST['input_504']) == 0 || empty($_POST['message']) && strlen($_POST['message']) == 0)
 	{
+		echo "Le message n'a pas pu être envoyé";
 		return false;
 	}
 	
@@ -20,5 +21,6 @@
 	$headers .= "Reply-To: $input_504";	
 	
 	mail($to,$email_subject,$email_body,$headers); // Post message
+	echo "Le message a été envoyé.";
 	return true;			
 ?>
